@@ -1,0 +1,55 @@
+html{
+    height: 40%;
+    width: 100%;
+}
+.container {
+    height: 40%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+}
+#one {
+    grid-column-start: 1;
+    grid-column-end: 3 ;
+    background-color: green;
+    height: 40px;
+    color: white;
+    text-align: center;
+    
+}
+#two{
+    height: 60px;
+    grid-column-start: 1;
+    grid-column-end: 3 ;
+    background-color: red;
+    color: white;
+    text-align: center;
+    
+}
+#three{
+    height: 60px;
+    grid-column: 1/2;
+    background-color: peru;
+    color: white;
+    text-align: center;
+
+}
+#four{
+    height: 60px;
+    grid-column: 2/3;
+    background-color:pink;
+    color: white;
+    text-align: center;
+}
+#five {
+    height: 40px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color:blue;
+    color: white;
+    text-align: center;
+    
+}
+
+
